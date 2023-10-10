@@ -1,0 +1,107 @@
+body
+{
+    box-sizing: border-box;
+    /* background-color: #ff1100; */
+}
+
+.showTask
+{
+    width:800px;
+    background-color:rgb(244, 208, 116);
+    border-radius:4px;
+    margin:0 auto;
+    top:200px;
+    position:relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.title
+{
+    position:relative;
+    left:10px;
+    top:10px;
+    letter-spacing:2px;
+}
+.count
+{
+    position:relative;
+    left:20px;
+    top:10px;
+    padding:2px 5px;
+    border-radius:50%;
+   background-color:rgb(240, 144, 27); 
+   color:whitesmoke;
+}
+.clearAll
+{
+    position:relative;
+    left:88%;
+    top:-9px;
+    border-style:none;
+    border-radius:4px;
+    background:rgb(37, 112, 240);
+    color:whitesmoke;
+    cursor:pointer;
+}
+.clearAll:hover
+{
+    font-weight:bold;
+}
+
+.showTaskBox
+{
+position:relative;
+left:-10px;
+width:200px;
+height:60px;
+background-color:bisque;
+border-radius: 4px;
+border-left: 3px solid #56fa56;
+margin-bottom: 5px;
+margin-left:5px;
+display: inline-block;
+
+}
+
+
+
+li
+{
+    list-style-type: none;
+}
+.taskdetails
+{
+    position:relative;
+    left:5px;
+
+
+}
+.taskdetails span
+{
+    display:flex;
+}
+.taskdetails .name
+{
+    position: relative;
+    top:5px;
+
+}
+.taskdetails .time
+{
+    position: relative;
+    top:10px;
+}
+
+.reactIcons
+{
+    position:relative;
+    left:160px;
+    top:-30px;
+   
+}
+.touchIcon
+{
+    cursor:pointer;
+}
+
